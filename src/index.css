@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Baloo 2', 'Nunito', sans-serif;
+    -webkit-font-smoothing: 'Baloo 2';
+    -moz-osx-font-smoothing: 'Baloo 2';
+    background-color: rgb(33, 37, 41);
+}
+
+code {
+    font-family: 'Baloo 2', 'Nunito', sans-serif;
+    ;
+}
+
+.show {
+    color: rgb(33, 37, 41);
+}
+
+.solid-nav {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: rgb(33, 37, 41);
+    transition: background-color 0.2s linear;
+    height: 50px;
+}
+
+.card {
+    height: 500px;
+    border: 1px solid #FFFFFF8C!important;
+    position: relative;
+    /* box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px; */
+}
+
+.news-item-badge {
+    position: absolute;
+    background-color: white;
+    right: -2px;
+    top: -10px;
+    z-index: 1;
+    color: rgb(33, 37, 41);
+}
+
+.nav-item a {
+    font-weight: 600;
+}
+
+.news-item-heading,
+.news-item-title,
+.news-item-description {
+    color: #FFFFFF8C;
+}
+
+.news-item-body {
+    background-color: rgb(33, 37, 41);
+}
+
+.news-item-img {
+    height: 212px;
+    width: 354;
+}
+
+
+/* Loader Css */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+span {
+    color: #FFFFFF8C;
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.spinner {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+
+.spinner::before {
+    animation: loader 1s linear infinite;
+    position: absolute;
+    content: '';
+    left: 0;
+    top: -40%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px rgba(255, 255, 255, 0.3);
+    }
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px rgba(255, 255, 255, 0.3);
+    }
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px rgba(255, 255, 255, 0.3);
+    }
+}
