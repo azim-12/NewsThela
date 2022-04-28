@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NewsThela/static/css/main.81d9ec17.css",
-    "main.js": "/NewsThela/static/js/main.7bd51d35.js",
+    "main.css": "/NewsThela/static/css/main.f5792d4d.css",
+    "main.js": "/NewsThela/static/js/main.421404e6.js",
     "static/js/787.82d7b41d.chunk.js": "/NewsThela/static/js/787.82d7b41d.chunk.js",
     "index.html": "/NewsThela/index.html",
-    "main.81d9ec17.css.map": "/NewsThela/static/css/main.81d9ec17.css.map",
-    "main.7bd51d35.js.map": "/NewsThela/static/js/main.7bd51d35.js.map",
+    "main.f5792d4d.css.map": "/NewsThela/static/css/main.f5792d4d.css.map",
+    "main.421404e6.js.map": "/NewsThela/static/js/main.421404e6.js.map",
     "787.82d7b41d.chunk.js.map": "/NewsThela/static/js/787.82d7b41d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81d9ec17.css",
-    "static/js/main.7bd51d35.js"
+    "static/css/main.f5792d4d.css",
+    "static/js/main.421404e6.js"
   ]
 }
