@@ -11,34 +11,31 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <div>
-                    <Link className="navbar-brand" to="/"><strong>NewsTech</strong></Link>
+                    <Link className="navbar-brand" to="/NewsThela"><strong>NewsThela</strong></Link>
                 </div>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                        </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" to="/">Link</Link>
-                        </li> */}
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/business">Business</Link>
+                            <Link className={`nav-link ${window.location.pathname==="/NewsThela" ? 'active' : ''}`} aria-current="page" to="/NewsThela">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/entertainment">Entertainment</Link>
+                            <Link className={`nav-link ${window.location.pathname==="/NewsThela/business" ? 'active' : ''}`} to="/NewsThela/business">Business</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/health">Health</Link>
+                            <Link className={`nav-link ${window.location.pathname==="/NewsThela/entertainment" ? 'active' : ''}`} to="/NewsThela/entertainment">Entertainment</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/science">Science</Link>
+                            <Link className={`nav-link ${window.location.pathname==="/NewsThela/health" ? 'active' : ''}`} to="/NewsThela/health">Health</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/sports">Sports</Link>
+                            <Link className={`nav-link ${window.location.pathname==="/NewsThela/science" ? 'active' : ''}`} to="/NewsThela/science">Science</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/technology">Technology</Link>
+                            <Link className={`nav-link ${window.location.pathname==="/NewsThela/sports" ? 'active' : ''}`} to="/NewsThela/sports">Sports</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className={`nav-link ${window.location.pathname==="/NewsThela/technology" ? 'active' : ''}`} to="/NewsThela/technology">Technology</Link>
                         </li>
                     </ul>
 

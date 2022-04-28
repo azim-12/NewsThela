@@ -50,6 +50,7 @@ code {
 .news-item-title,
 .news-item-description {
     color: #FFFFFF8C;
+    text-transform: uppercase;
 }
 
 .news-item-body {

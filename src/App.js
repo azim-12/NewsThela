@@ -21,13 +21,13 @@ export default function App() {
         />
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<News setProgress={setProgress} key="general" pageSize={6} country='in' category='top' />} />
-          <Route exact path='/business' element={<News setProgress={setProgress} key="business" pageSize={6} country='in' category='business' />} />
-          <Route exact path='/entertainment' element={<News setProgress={setProgress} key="entertainment" pageSize={6} country='in' category='entertainment' />} />
-          <Route exact path='/health' element={<News setProgress={setProgress} key="health" pageSize={6} country='in' category='health' />} />
-          <Route exact path='/science' element={<News setProgress={setProgress} key="science" pageSize={6} country='in' category='science' />} />
-          <Route exact path='/sports' element={<News setProgress={setProgress} key="sports" pageSize={6} country='in' category='sports' />} />
-          <Route exact path='/technology' element={<News setProgress={setProgress} key="technology" pageSize={6} country='in' category='technology' />} />
+          <Route exact path='/NewsThela' element={<News setProgress={setProgress} key="general" pageSize={6} country='in' category='top' />} />
+          <Route exact path='/NewsThela/business' element={<News setProgress={setProgress} key="business" pageSize={6} country='in' category='business' />} />
+          <Route exact path='/NewsThela/entertainment' element={<News setProgress={setProgress} key="entertainment" pageSize={6} country='in' category='entertainment' />} />
+          <Route exact path='/NewsThela/health' element={<News setProgress={setProgress} key="health" pageSize={6} country='in' category='health' />} />
+          <Route exact path='/NewsThela/science' element={<News setProgress={setProgress} key="science" pageSize={6} country='in' category='science' />} />
+          <Route exact path='/NewsThela/sports' element={<News setProgress={setProgress} key="sports" pageSize={6} country='in' category='sports' />} />
+          <Route exact path='/NewsThela/technology' element={<News setProgress={setProgress} key="technology" pageSize={6} country='in' category='technology' />} />
         </Routes>
       </Router>
     </div>  
